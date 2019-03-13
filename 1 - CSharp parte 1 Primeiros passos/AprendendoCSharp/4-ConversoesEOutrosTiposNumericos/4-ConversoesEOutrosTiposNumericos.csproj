@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75BF9B39-A4D3-464D-B447-D9AD1A074ECD}</ProjectGuid>
+    <ProjectGuid>{E50F196A-62CC-41D2-A3E0-1B84EB69E702}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_3_CriandoVariaveisPontoFlutuante</RootNamespace>
-    <AssemblyName>3-CriandoVariaveisPontoFlutuante</AssemblyName>
+    <RootNamespace>_4_ConversoesEOutrosTiposNumericos</RootNamespace>
+    <AssemblyName>4-ConversoesEOutrosTiposNumericos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
