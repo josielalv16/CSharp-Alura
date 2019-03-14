@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1199832-3694-4BF5-93F8-954D603252C9}</ProjectGuid>
+    <ProjectGuid>{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_5_CaracteresETextos</RootNamespace>
-    <AssemblyName>5-CaracteresETextos</AssemblyName>
+    <RootNamespace>_7_Condicionais</RootNamespace>
+    <AssemblyName>7-Condicionais</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

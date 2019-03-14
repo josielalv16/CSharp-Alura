@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-PrimeiroProjeto", "1-PrimeiroProjeto\1-PrimeiroProjeto.csproj", "{0998FDD0-5ADF-4652-86E1-03ABA2017DA4}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante.csproj", "{75BF9B39-A4D3-464D-B447-D9AD1A074ECD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConversoesEOutrosTiposNumericos", "4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos.csproj", "{E50F196A-62CC-41D2-A3E0-1B84EB69E702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-CaracteresETextos", "5-CaracteresETextos\5-CaracteresETextos.csproj", "{F1199832-3694-4BF5-93F8-954D603252C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AtribuicoesDeValores", "6-AtribuicoesDeValores\6-AtribuicoesDeValores.csproj", "{E35E7FA6-E42D-43CF-A45F-5D76DD00415F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-Condicionais", "7-Condicionais\7-Condicionais.csproj", "{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +39,23 @@ Global
 		{E50F196A-62CC-41D2-A3E0-1B84EB69E702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50F196A-62CC-41D2-A3E0-1B84EB69E702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50F196A-62CC-41D2-A3E0-1B84EB69E702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1199832-3694-4BF5-93F8-954D603252C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1199832-3694-4BF5-93F8-954D603252C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1199832-3694-4BF5-93F8-954D603252C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1199832-3694-4BF5-93F8-954D603252C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35E7FA6-E42D-43CF-A45F-5D76DD00415F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35E7FA6-E42D-43CF-A45F-5D76DD00415F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35E7FA6-E42D-43CF-A45F-5D76DD00415F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35E7FA6-E42D-43CF-A45F-5D76DD00415F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3030C39-620A-4FAA-AC40-E7CC48C0EB50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D741D405-EA3C-4127-A44A-386C2671549C}
 	EndGlobalSection
 EndGlobal
