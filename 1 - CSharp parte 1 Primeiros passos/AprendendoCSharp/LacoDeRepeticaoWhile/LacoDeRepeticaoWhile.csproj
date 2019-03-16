@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{247C5FAB-6B82-4DEF-A1D7-34B5BC77F044}</ProjectGuid>
+    <ProjectGuid>{D859207C-7F7D-4D9D-9B97-1A3C46C730B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P13_ForEncadeado</RootNamespace>
-    <AssemblyName>P13-ForEncadeado</AssemblyName>
+    <RootNamespace>LacoDeRepeticaoWhile</RootNamespace>
+    <AssemblyName>LacoDeRepeticaoWhile</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
