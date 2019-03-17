@@ -11,11 +11,10 @@
         {
             return false;
         }
-        else
-        {
-            this.saldo -= valor;
-            return true;
-        }
+
+        this.saldo -= valor;
+        return true;
+
     }
 
     public void Depositar(double valor)
