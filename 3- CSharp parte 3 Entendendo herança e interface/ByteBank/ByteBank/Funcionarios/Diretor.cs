@@ -8,9 +8,15 @@ namespace ByteBank.Funcionarios
 {
     public class Diretor : Funcionario
     {
+        public string Senha { get; set; }
         public Diretor(string cpf) : base(5000, cpf)
         {
             Console.WriteLine("Criando DIRETOR");
+        }
+
+        public bool Autenticar(string senha)
+        {
+            return Senha == senha;
         }
 
         public override void AumentarSalario()
