@@ -12,42 +12,22 @@ namespace ByteBank
         {
             try
             {
-                ContaCorrente conta = new ContaCorrente(514, 1);
-                ContaCorrente conta2 = new ContaCorrente(515, 2);
+                ContaCorrente conta1 = new ContaCorrente(4567, 789684);
+                ContaCorrente conta2 = new ContaCorrente(7891, 456794);
 
-                conta.Depositar(50);
-                conta.Sacar(500);
-                conta.Transferir(100, conta2);
-            }
-            catch (SaldoInsuficienteException ex)
-            {
-                Console.WriteLine(ex.Saldo);
-                Console.WriteLine(ex.ValorSaque);
+                conta1.Transferir(10000, conta2);
+                conta1.Sacar(1000);
 
-                Console.WriteLine(ex.StackTrace);
+            }
+            catch (OperacaoFinanceiraException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
 
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Excecao do tipo SaldoInsuficienteException");
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine("Argumento com problema " + ex.ParamName);
-                Console.WriteLine("Ocorreu uma exceção do tipo ArgumentException");
-                Console.WriteLine(ex.Message);
-            }
+                Console.WriteLine("Informações da INNER EXCEPTION (exceção interna):");
 
-            try
-            {
-                Metodo();
-            }
-            catch (DivideByZeroException erro)
-            {
-                Console.WriteLine("Não é possivel divisão por zero");
-            }
-            catch (Exception erro)
-            {
-                Console.WriteLine(erro.Message);
-                Console.WriteLine("Aconteceu um erro");
+                Console.WriteLine(e.InnerException.Message);
+                Console.WriteLine(e.InnerException.StackTrace);
             }
 
             Console.ReadLine();
