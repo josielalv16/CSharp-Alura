@@ -43,7 +43,16 @@ namespace ByteBank
 
         private static int Dividir(int numero, int divisor)
         {
-            return numero / divisor;
+            try
+            {
+                return numero / divisor;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Exeçao com numero=" + numero + " e divisor=" + divisor);
+                throw;
+            }
+            
         }
     }
 }
