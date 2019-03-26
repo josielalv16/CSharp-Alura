@@ -1,5 +1,6 @@
 ﻿using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
+using Humanizer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,7 @@ namespace ByteBank.SistemaAgencia
 
             TimeSpan diferenca = dataFimPagamento - dataCorrente;
 
-            string mensagem = "Vencimento em " + GetIntervaloDeTempoLegivel(diferenca);
-
+            string mensagem = "Vencimento em " + TimeSpanHumanizeExtensions.Humanize(diferenca);
             Console.WriteLine(dataCorrente);
             Console.WriteLine(dataFimPagamento);
 
