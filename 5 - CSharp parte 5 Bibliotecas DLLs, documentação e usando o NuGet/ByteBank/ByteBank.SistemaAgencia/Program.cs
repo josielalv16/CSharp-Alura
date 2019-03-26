@@ -26,22 +26,22 @@ namespace ByteBank.SistemaAgencia
             Console.ReadLine();
         }
 
-        static string GetIntervaloDeTempoLegivel(TimeSpan timeSpan)
-        {
-            if (timeSpan.Days > 30)
-            {
-                int quantidadeMeses = timeSpan.Days / 30;
-                if (quantidadeMeses == 1)
-                {
-                    return "1 mes";
-                }
-                return quantidadeMeses + " meses";
-            }
-            else if (timeSpan.Days > 7)
-            {
-                int quantidadeSemanas = timeSpan.Days / 7;
-            }
-            return timeSpan.Days + " dias";
-        }
+        //static string GetIntervaloDeTempoLegivel(TimeSpan timeSpan)
+        //{
+        //    if (timeSpan.Days > 30)
+        //    {
+        //        int quantidadeMeses = timeSpan.Days / 30;
+        //        if (quantidadeMeses == 1)
+        //        {
+        //            return "1 mes";
+        //        }
+        //        return quantidadeMeses + " meses";
+        //    }
+        //    else if (timeSpan.Days > 7)
+        //    {
+        //        int quantidadeSemanas = timeSpan.Days / 7;
+        //    }
+        //    return timeSpan.Days + " dias";
+        //}
     }
 }
