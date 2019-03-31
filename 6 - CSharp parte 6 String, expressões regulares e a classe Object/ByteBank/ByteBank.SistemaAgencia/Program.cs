@@ -14,9 +14,13 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            // string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
+           // string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
             // string padrao = "[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]";
-            string padrao = "[0-9]{4}[-][0-9]{4}";
+            // string padrao = "[0-9]{4,5}[-][0-9]{4}";
+            // string padrao = "[0-9]{4,5}[-]{0,1}[0-9]{4}";
+            // string padrao = "[0-9]{4,5}-{0,1}[0-9]{4}";
+            string padrao = "[0-9]{4,5}-?[0-9]{4}";
+
             string textoDeTeste = "ajgdjgjagsygaugsa 8751-5456 aygsygsygua auyakjskjs";
 
             Match resultado = Regex.Match(textoDeTeste, padrao);
